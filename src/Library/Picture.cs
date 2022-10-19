@@ -29,7 +29,7 @@ namespace CompAndDel
         /// </summary>
         public Int32 Width
         {
-            get {return this.colorsMatrix.GetLength(0); }
+            get { return this.colorsMatrix.GetLength(0); }
         }
 
         /// <summary>
@@ -105,10 +105,10 @@ namespace CompAndDel
             {
                 for (int y = 0; y < pictureClone.Height; y++)
                 {
-                    pictureClone.SetColor(x, y, this.colorsMatrix[x,y]);
+                    pictureClone.SetColor(x, y, this.colorsMatrix[x, y]);
                 }
             }
-            
+
             return pictureClone;
         }
     }
