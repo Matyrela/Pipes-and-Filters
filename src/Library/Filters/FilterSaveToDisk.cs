@@ -3,7 +3,7 @@ using System.IO;
 
 namespace CompAndDel.Filters
 {
-    public class SaveFilter : IFilter
+    public class FilterSaveToDisk : IFilter
     {
         public IPicture Filter(IPicture image)
         {
